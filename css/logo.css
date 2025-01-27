@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  .heart {
+    position: fixed;
+    left: 3%; /* Center horizontally */
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    transform: rotate(-45deg);
+    margin-top: 30px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .heart:before {
+    top: -12.5px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 12.5px;
+    top: 0;
+  }
+  
