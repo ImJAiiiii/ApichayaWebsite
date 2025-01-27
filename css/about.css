@@ -145,28 +145,6 @@ h6{
     }
   }
 
-  .star {
-    display: inline-block;
-    color: black;
-    font-size: 1.2em;
-    margin-right: 8px;
-  }
-  
-  .education-list li {
-    list-style: none;
-    font-size: 1em;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-  }
-  
-  .education-list li:before {
-    content: "\272F"; /* Unicode star character */
-    font-size: 1.2em;
-    color: black;
-    margin-right: 8px;
-  }
-
 .logo {
     color: white;
     display: flex;
